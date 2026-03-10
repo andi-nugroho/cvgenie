@@ -14,7 +14,7 @@ const defaultNavigationLinks = [
 
 const defaultSocialLinks = [
 
-  { href: "mailto:your_email@example.com", icon: <Mail size={24} />, hoverColor: "text-gray-600" },
+  { href: "mailto:andidelouise@gmail.com", icon: <Mail size={24} />, hoverColor: "text-gray-600" },
   { href: "https://www.linkedin.com/in/andiinugroho", icon: <Linkedin size={24} />, hoverColor: "text-gray-600" },
   { href: "https://github.com/andi-nugroho", icon: <Github size={24} />, hoverColor: "text-gray-600" },
 ];
