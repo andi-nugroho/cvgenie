@@ -55,14 +55,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/komalverma22/cv-Genie.git"
+    "url": "git+https://github.com/andi-nugroho/cvgenie.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/komalverma22/cv-Genie/issues"
+    "url": "https://github.com/andi-nugroho/cvgenie/issues"
   },
-  "homepage": "https://github.com/komalverma22/cv-Genie#readme"
+  "homepage": "https://github.com/andi-nugroho/cvgenie#readme"
 }
