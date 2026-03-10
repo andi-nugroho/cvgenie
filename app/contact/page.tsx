@@ -68,7 +68,7 @@ const ContactPage = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-gray-900 mb-4 title-font">Contact Us</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto description-font">
-            Have questions or need assistance? Reach out to us, and we'll get back to you as soon as possible.
+            Have questions or need assistance? Reach out to us, and we&apos;ll get back to you as soon as possible.
           </p>
         </div>
 
