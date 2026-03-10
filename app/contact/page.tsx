@@ -28,7 +28,7 @@ const ContactPage = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Validation: Check if any field is empty
     if (!formData.name || !formData.email || !formData.subject || !formData.message) {
       setError("All fields are required!");
@@ -48,7 +48,7 @@ const ContactPage = () => {
       // Success flow after loading
       setIsLoading(false);
       setSuccess(true);
-      
+
       // Reset form after success
       setFormData({
         name: "",
@@ -82,7 +82,7 @@ const ContactPage = () => {
               <div>
                 <h3 className="text-xl font-semibold text-gray-900">Email</h3>
                 <p className="text-gray-600">support@cvgenie.anditech.site</p>
-                <p className="text-gray-600">contact@cvgenie.com</p>
+                <p className="text-gray-600">contact@cvgenie.anditech.site</p>
               </div>
             </div>
 
@@ -92,8 +92,8 @@ const ContactPage = () => {
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-gray-900">Phone</h3>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
-                <p className="text-gray-600">Mon - Fri, 9am - 6pm</p>
+                <p className="text-gray-600">+62 812 3456 7890</p>
+                <p className="text-gray-600">Mon - Fri, 9am - 6pm (WIB)</p>
               </div>
             </div>
 
@@ -104,8 +104,8 @@ const ContactPage = () => {
               <div>
                 <h3 className="text-xl font-semibold text-gray-900">Office</h3>
                 <p className="text-gray-600">
-                  123 Tech Avenue, Suite 456<br />
-                  Silicon Valley, CA 94025
+                  Jl. Sudirman No. 123, Central Jakarta<br />
+                  Jakarta, Indonesia 10210
                 </p>
               </div>
             </div>
