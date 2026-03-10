@@ -16,7 +16,7 @@
 ✅ **Customizable Sections** – Effortlessly add details for Experience, Education, Skills, Projects, and Achievements.
 ✅ **Instant PDF Export** – Download your professionally formatted resume as a PDF file with one click.
 ✅ **User Authentication** – Secure login and registration using **NextAuth.js** with Google and Email/Password options.
-✅ **Database Integration** – Persistent data storage using **Prisma ORM** and **PostgreSQL** (Neon/Supabase).
+✅ **Database Integration** – Persistent data storage using **Prisma ORM** and **PostgreSQL**.
 ✅ **Responsive Design** – Optimized for both desktop and mobile devices.
 ✅ **Contact System** – Dedicated contact page with form validation and simulated processing.
 
