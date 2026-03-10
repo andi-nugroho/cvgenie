@@ -93,6 +93,14 @@ export default function Navbar() {
             Create
           </Link>
 
+          <Link 
+            href="/contact" 
+            className="flex items-center gap-1 text-gray-700 hover:text-black transition-colors duration-200 hover:scale-105"
+          >
+            <img src="/problem-solving.png" alt="Contact Icon" className="w-5 h-5" />
+            Contact
+          </Link>
+
           {!session ? (
             <Link 
               href="/signin"
@@ -220,6 +228,14 @@ export default function Navbar() {
           >
             <img src="/edit.png" alt="Create Icon" className="w-4 h-4" />
             Create Resume
+          </Link>
+          <Link 
+            href="/contact" 
+            onClick={closeMobileMenu}
+            className="block px-6 py-3 text-lg flex gap-1 items-center font-medium hover:text-black hover:bg-white/25 rounded transition-colors duration-200"
+          >
+            <img src="/problem-solving.png" alt="Contact Icon" className="w-4 h-4" />
+            Contact Us
           </Link>
           {!session ? (
             <Link 
